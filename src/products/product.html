@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>deepsea | profile</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/all.min.css">
+</head>
+<body>
+<div class="top_navigation">
+    <img alt="logo" class="logo" src="../../img/logo.png" />
+    <input type="checkbox" id="checkMenu"/>
+    <label for="checkMenu" class="menu-holder">
+        <span class="menu">
+            &nbsp;
+        </span>
+    </label>
+    <ul class="navigation_list">
+        <li class="navigation_list-item"><a href="../profile.html" class="navigation_list-item-link">Home</a></li>
+        <li class="navigation_list-item"><a href="../message/messages.html" class="navigation_list-item-link">Messages</a></li>
+        <li class="navigation_list-item"><a href="../vendor/vendor.html" class="navigation_list-item-link">Become a Vendor</a></li>
+        <li class="navigation_list-item"><a href="../balance.html" class="navigation_list-item-link">Balance</a></li>
+        <li class="navigation_list-item"><a href="../order.html" class="navigation_list-item-link">Orders</a></li>
+        <li class="navigation_list-item"><a href="../profile.html" class="navigation_list-item-link">Feedback</a></li>
+        <li class="navigation_list-item"><a href="../contact/support.html" class="navigation_list-item-link">Support</a></li>
+        <li class="navigation_list-item"><a href="../contact/support.html" class="navigation_list-item-link">Community</a></li>
+        <li class="navigation_list-item"><a href="../contact/support.html" class="navigation_list-item-link">FAQs</a></li>
+    </ul>
+</div>
+
+<!--<div class="section-global-stats">-->
+<!--    <div class="user-wallet-stats">-->
+<!--        <div class="user-wallet-stats-userDetails">-->
+<!--            <span>love</span>-->
+<!--            <span>notification</span>-->
+<!--            <p>Obeichina</p>-->
+
+<!--        </div>-->
+<!--        <div class="user-wallet-stats-userWallet">-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="global-exchange-rate">-->
+<!--        <span>Eu</span>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+
+
+<div class="dashboard">
+    <input type="checkbox" id="sidebar"/>
+    <label class="side-menu" for="sidebar">
+        <img alt="menu "  class="side-menu-icon" src="../../img/angle-right.svg"/>
+    </label>
+    <aside class="side-bar">
+        <div>
+            <a class="lottery-btn">lottery</a>
+        </div>
+        <ul id="listing" class="listing">
+            <li class="listing-side-bar-head">Browse by category</li>
+            <li class="listing-side-bar-item">
+                carded Items <span class="circle-count">234</span>
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>Digital</li>
+                    <li>Physical</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                counterfeit<span class="circle-count">23334</span>
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                Digital Products <span class="circle-count">10000</span>
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                Drugs and Chemicals <span class="circle-count">104</span>
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                Frauds
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                Jewel and Golds
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="side-box-bordered mg-v4">
+            <form class="form">
+                <h3 class="side-box-bordered-head">Advanced Search</h3>
+                <div class="side-box-bordered-item">
+                    <span class="p bold">Product Type</span>
+                    <div>
+                        <input id="prod1" type="radio" name="productType">
+                        <label for="prod1">all</label>
+                        <input  type="radio" name="productType">
+                        <label>Physical</label>
+                        <input  type="radio" name="productType">
+                        <label>Digital</label>
+                    </div>
+                   <div class="mg-v1">
+                       <h3 class="p">listing item</h3>
+                       <div class="form-input-box">
+
+                           <input   class="form-input"  />
+                       </div>
+                   </div>
+                    <div class="mg-v1">
+                        <h3 class="p">Vendor Name</h3>
+                        <div class="form-input-box">
+
+                            <input  class="form-input"  />
+                        </div>
+                    </div>
+                    <div class="mg-v1">
+                        <h3 class="p">Category</h3>
+                        <div class="form-input-box">
+
+                            <input   class="form-input"  />
+                        </div>
+                    </div>
+                    <div class="mg-v1">
+                        <h3 class="p">price per unit</h3>
+                        <div class="form-input-box width-35">
+                            <input class="form-input width-100"  type="number" placeholder="min"/>
+                        </div>
+                        <div class="form-input-box width-35">
+
+                            <input class="form-input width-100" type="number" placeholder="max" />
+                        </div>
+                    </div>
+                    <div class="mg-v1">
+                        <h3 class="p">origin country</h3>
+                        <div class="form-input-box">
+
+                            <input  class="form-input"  />
+                        </div>
+                    </div>
+                    <div class="mg-v1">
+                        <h3 class="p">Shipping to</h3>
+                        <div class="form-input-box">
+
+                            <input  id="prod2" class="form-input"  />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </aside>
+    <main class="content-area">
+         <div>
+             <h2 class="h1">Product page</h2>
+             <div class="grid">
+                 <div class="grid-1-of-4">
+                     <img alt="product image" src='../../img/51119_1563542725.jpg' class="product-img"/>
+                 </div>
+                 <div class="grid-3-of-4-n card product-details">
+                     <h2 class="h3">Man utd jersey</h2>
+<!--                     <div class="seller-box bordered-box">-->
+<!--                         <h2 class="p bold">seller information</h2>-->
+<!--                     </div>-->
+                     <div>
+                         <div class="star-box">
+                             <span class="good fas fa-star"></span>
+                             <span class="good fas fa-star"></span>
+                             <span class="good fas fa-star"></span>
+                             <span class="fas fa-star"></span>
+                             <span class="fas fa-star"></span>
+                         </div>
+                         <p class="accentBox-1">
+                             Physical
+                         </p>
+                         <ul class="product-list">
+                             <li>
+                                 $10.0 per item, for at least one items
+                             </li>
+                         </ul>
+                         <div class="mg-v2">
+                             <p class="grey-box disp-inline p">15 sold 25 left</p>
+                         </div>
+                         <div class="mg-v2">
+                             <p class="p-sm">Accepted coin</p>
+                             <span class="accentBox-2">BTC</span>
+                             <span class="accentBox-2">ETH</span>
+                             <span class="accentBox-2">RPL</span>
+                         </div>
+                         <form class="form grey-box">
+                             <div class="mg-v2">
+                                 <p class="p-sm">Delivery method</p>
+                                 <div class="mg-t1">
+                                     <div class="form-input-box">
+                                         <select class="form-input  width-100">
+                                             <option>by roads Lorem ipsquuntur dolorem dolorum ducimus  voluptatum.</option>
+                                         </select>
+                                     </div>
+                                 </div>
+                                 <p class="p-sm mg-t1">Pay with coin</p>
+                                 <div class="mg-t1">
+                                     <div class="form-input-box">
+                                         <select class="form-input  width-100">
+                                             <option>BTC</option>
+                                         </select>
+                                     </div>
+                                 </div>
+                                 <div class="mg-t1">
+                                     <p class="p-sm">purchase type</p>
+                                     <span class="accentBox-3">Normal Escrows</span>
+                                 </div>
+                                 <p class="p-sm mg-t1">Amount</p>
+                                 <div class="mg-t1">
+                                     <div class="form-input-box">
+                                         <input type="number" class="form-input  width-100" placeholder="amount"/>
+
+                                     </div>
+                                 </div>
+                                 <div class="disp-flex mg-v2">
+                                     <button class="btn btn-vend"><i class="fas fa-plus"></i> buy</button>
+                                     <a class="btn mg-l2 btn-grey">
+                                         add to wish-lists
+                                     </a>
+                                 </div>
+                             </div>
+                         </form>
+
+
+
+                     </div>
+                 </div>
+             </div>
+
+         </div>
+        <div class="product-under-box mg-v4">
+            <nav class="under-nav">
+                <span class="under-nav-item ">Details</span>
+                <span class="under-nav-item">Payment Rules</span>
+                <span class="under-nav-item under--active">Feedback</span>
+                <span class="under-nav-item ">Delivery</span>
+            </nav>
+
+<!--            details tab-->
+<!--            <div class="under-details">-->
+<!--                <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto dolor doloremque, excepturi in labore nobis odit quas quasis-->
+<!--                    epellendus sapiente tempore vero. Consequatur ipsa ipsam quasi veritatis voluptas voluptatem?</p><p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto dolor doloremque, excepturi in labore nobis odit quas quasis-->
+<!--                    epellendus sapiente tempore vero. Consequatur ipsa ipsam quasi veritatis voluptas voluptatem?</p>-->
+<!--            </div> -->
+
+<!--            <div class="under-details">-->
+<!--                              <div class="accentBox-3-light">-->
+<!--                                  <p class="p">Lorem ipsum dolor sit a quidem. At blanditiis dignissimos dolorem earum eius et eum modi mole sequi.</p>-->
+<!--                              </div>-->
+<!--                            </div>-->
+<!--            <div class="under-details">-->
+<!--                <p class="p">ships all</p>-->
+<!--                <p class="p-sm">ships all from <span class="bold">France</span></p>-->
+<!--                <div class="container overflow-x-auto">-->
+<!--                    <table class="table-shadow">-->
+<!--                        <thead>-->
+<!--                        <tr>-->
+<!--                            <th>Date</th>-->
+<!--                            <th>Amount</th>-->
+<!--                            <th>Fee</th>-->
+<!--                            <th>Profit</th>-->
+<!--                            <th>Address</th>-->
+<!--                        </tr>-->
+<!--                        </thead>-->
+<!--                        <tbody>-->
+<!--                        <tr>-->
+<!--                            <td>12/12/20</td>-->
+<!--                            <td>0.222</td>-->
+<!--                            <td>0.0002</td>-->
+<!--                            <td>0.22</td>-->
+<!--                            <td>btcsgvsuwuwruwruxxioijirjerere</td>-->
+<!--                        </tr>-->
+<!--                        </tbody>-->
+<!--                    </table>-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+    </main>
+</div>
+<!--<script src="../js/sidebar.js"></script>-->
+<footer>
+    <p class="footer-p">deepsea &copy; 2020</p>
+</footer>
+</body>
+</html>
