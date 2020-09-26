@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>deepsea | profile</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
+<body>
+<div class="top_navigation">
+    <img alt="logo" class="logo" src="../img/logo.png" />
+    <input type="checkbox" id="checkMenu"/>
+    <label for="checkMenu" class="menu-holder">
+        <span class="menu">
+            &nbsp;
+        </span>
+    </label>
+    <ul class="navigation_list">
+        <li class="navigation_list-item"><a href="./profile.html" class="navigation_list-item-link">Home</a></li>
+        <li class="navigation_list-item"><a href="./message/messages.html" class="navigation_list-item-link">Messages</a></li>
+        <li class="navigation_list-item"><a href="./vendor/vendor.html" class="navigation_list-item-link">Become a Vendor</a></li>
+        <li class="navigation_list-item"><a href="./balance.html" class="navigation_list-item-link">Balance</a></li>
+        <li class="navigation_list-item"><a href="./order.html" class="navigation_list-item-link">Orders</a></li>
+        <li class="navigation_list-item"><a href="./profile.html" class="navigation_list-item-link">Feedback</a></li>
+        <li class="navigation_list-item"><a href="./contact/support.html" class="navigation_list-item-link">Support</a></li>
+        <li class="navigation_list-item"><a href="./contact/support.html" class="navigation_list-item-link">Community</a></li>
+        <li class="navigation_list-item"><a href="./contact/support.html" class="navigation_list-item-link">FAQs</a></li>
+    </ul>
+</div>
+
+<!--<div class="section-global-stats">-->
+<!--    <div class="user-wallet-stats">-->
+<!--        <div class="user-wallet-stats-userDetails">-->
+<!--            <span>love</span>-->
+<!--            <span>notification</span>-->
+<!--            <p>Obeichina</p>-->
+
+<!--        </div>-->
+<!--        <div class="user-wallet-stats-userWallet">-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="global-exchange-rate">-->
+<!--        <span>Eu</span>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+
+
+<div class="dashboard">
+    <input type="checkbox" id="sidebar"/>
+    <label class="side-menu" for="sidebar">
+        <img alt="menu "  class="side-menu-icon" src="../img/angle-right.svg"/>
+    </label>
+    <aside class="side-bar">
+        <div>
+            <a class="lottery-btn">lottery</a>
+        </div>
+        <ul id="listing" class="listing">
+            <li class="listing-side-bar-head">Browse by category</li>
+            <li class="listing-side-bar-item">
+                carded Items <span class="circle-count">234</span>
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>Digital</li>
+                    <li>Physical</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                counterfeit<span class="circle-count">23334</span>
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                Digital Products <span class="circle-count">10000</span>
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                Drugs and Chemicals <span class="circle-count">104</span>
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                Frauds
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+            <li class="listing-side-bar-item">
+                Jewel and Golds
+                <ul class="listing-side-bar-item-sub-list">
+                    <li>item i</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="side-box-bordered mg-v4">
+            <form class="form">
+                <h3 class="side-box-bordered-head">Advanced Search</h3>
+                <div class="side-box-bordered-item">
+                    <span class="p bold">Product Type</span>
+                    <div>
+                        <input id="prod1" type="radio" name="productType">
+                        <label for="prod1">all</label>
+                        <input  type="radio" name="productType">
+                        <label>Physical</label>
+                        <input  type="radio" name="productType">
+                        <label>Digital</label>
+                    </div>
+                   <div class="mg-v1">
+                       <h3 class="p">listing item</h3>
+                       <div class="form-input-box">
+
+                           <input   class="form-input"  />
+                       </div>
+                   </div>
+                    <div class="mg-v1">
+                        <h3 class="p">Vendor Name</h3>
+                        <div class="form-input-box">
+
+                            <input  class="form-input"  />
+                        </div>
+                    </div>
+                    <div class="mg-v1">
+                        <h3 class="p">Category</h3>
+                        <div class="form-input-box">
+
+                            <input   class="form-input"  />
+                        </div>
+                    </div>
+                    <div class="mg-v1">
+                        <h3 class="p">price per unit</h3>
+                        <div class="form-input-box">
+                            <input class="form-input width-35"  type="number" placeholder="min"/>
+                        </div>
+                        <div class="form-input-box">
+
+                            <input class="form-input width-35" type="number" placeholder="max" />
+                        </div>
+                    </div>
+                    <div class="mg-v1">
+                        <h3 class="p">origin country</h3>
+                        <div class="form-input-box">
+
+                            <input  class="form-input"  />
+                        </div>
+                    </div>
+                    <div class="mg-v1">
+                        <h3 class="p">Shipping to</h3>
+                        <div class="form-input-box">
+
+                            <input  id="prod2" class="form-input"  />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </aside>
+    <main class="content-area">
+
+       <div class="disp-flex ">
+          <div class=" card ">
+              <h3 class='h3'>
+                  welcome user
+              </h3>
+              <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda debitis eos illo illum impedit molestiae nemo provident repellendus, suscipit vel. Commodi dicta ipsum neque quam quod reprehenderit, rerum voluptatem? Voluptatum.</p>
+              <p class="p ">check if your login phrase matches</p>
+              <p class="i"> hey you. <span class="accentColor2">lottery is here</span></p>
+
+          </div>
+           <div class="card mg-t2 ">
+               <p class="p">Mirror links</p>
+               <a class="p accentColor1" href="https://google.com">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor eaque</a>
+               <a class="p accentColor1" href="https://google.com">facere fugit in labore placeat possimus, praesentium qui quis rerum tempora vero voluptatum.
+               </a>
+               <a class="p accentColor1" href="https://google.com">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolor eaque</a>
+               <a class="p dangerColor" href="https://google.com">facere fugit in labore placeat possimus, praesentium qui quis rerum tempora vero voluptatum.
+               </a>
+           </div>
+       </div>
+
+<!--        <div class="card mg-t2 width-75">-->
+<!--            <h3 class="h3">Featured Products</h3>-->
+<!--            <div class="product-section">-->
+<!--                <div class="product-card bordered">-->
+<!--                  <img alt="product" src="../img/51119_1563542725.jpg" class="product-card-img">-->
+<!--                    <p class="product-seller">-->
+<!--                        vico jersey-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <div class=" mg-v2 width-100">
+           <h1 class="h1">Recent products</h1>
+
+            <div class="grid mg-v2">
+
+<!--                cards-->
+                <div class="card store-card grid-1-of-4 pos-rel">
+
+                    <img alt="store image" src="../img/51119_1563542725.jpg" class="store-img">
+
+                    <h2 class="h3 bold mg-v1">Real Madrid home jersey</h2>
+                    <h2 class="light p ">JUlius retailers</h2>
+                    <div class="grey-box disp-flex just-spbtw">
+                        <span class="qty">123 left</span>
+                        <span class="qty">10 sold</span>
+                    </div>
+                    <div class="mg-v1">
+                        <span class="price">$35</span>
+                    </div>
+                    <div>
+                       <span class="trust-badge">
+                        <span class="trust-level">
+                            trust lvl. 2
+                        </span>
+                        <span class="trust-level">
+                            vendor lvl. 2
+                        </span>
+                    </span>
+                    </div>
+                    <a class="mg-t1 btn btn-yellow">
+                        buy
+                    </a>
+                </div>
+                <div class="card store-card grid-1-of-4 pos-rel">
+
+                    <img alt="store image" src="../img/51119_1563542725.jpg" class="store-img">
+
+                    <h2 class="h3 bold mg-v1">Real Madrid home jersey</h2>
+                    <h2 class="light p ">JUlius retailers</h2>
+                    <div class="grey-box disp-flex just-spbtw">
+                        <span class="qty">123 left</span>
+                        <span class="qty">10 sold</span>
+                    </div>
+                    <div class="mg-v1">
+                        <span class="price">$35</span>
+                    </div>
+                    <div>
+                       <span class="trust-badge">
+                        <span class="trust-level">
+                            trust lvl. 2
+                        </span>
+                        <span class="trust-level">
+                            vendor lvl. 2
+                        </span>
+                    </span>
+                    </div>
+                    <a class="mg-t1 btn btn-yellow">
+                        buy
+                    </a>
+                </div>
+
+                <div class="card store-card grid-1-of-4 pos-rel">
+
+                    <img alt="store image" src="../img/51119_1563542725.jpg" class="store-img">
+
+                    <h2 class="h3 bold mg-v1">Real Madrid home jersey</h2>
+                    <h2 class="light p ">JUlius retailers</h2>
+                    <div class="grey-box disp-flex just-spbtw">
+                        <span class="qty">123 left</span>
+                        <span class="qty">10 sold</span>
+                    </div>
+                    <div class="mg-v1">
+                        <span class="price">$35</span>
+                    </div>
+                    <div>
+                       <span class="trust-badge">
+                        <span class="trust-level">
+                            trust lvl. 2
+                        </span>
+                        <span class="trust-level">
+                            vendor lvl. 2
+                        </span>
+                    </span>
+                    </div>
+                    <a class="mg-t1 btn btn-yellow">
+                        buy
+                    </a>
+                </div>
+
+                <div class="card store-card grid-1-of-4 pos-rel">
+
+                    <img alt="store image" src="../img/51119_1563542725.jpg" class="store-img">
+
+                    <h2 class="h3 bold mg-v1">Real Madrid home jersey</h2>
+                    <h2 class="light p ">JUlius retailers</h2>
+                    <div class="grey-box disp-flex just-spbtw">
+                        <span class="qty">123 left</span>
+                        <span class="qty">10 sold</span>
+                    </div>
+                    <div class="mg-v1">
+                        <span class="price">$35</span>
+                    </div>
+                    <div>
+                       <span class="trust-badge">
+                        <span class="trust-level">
+                            trust lvl. 2
+                        </span>
+                        <span class="trust-level">
+                            vendor lvl. 2
+                        </span>
+                    </span>
+                    </div>
+                    <a class="mg-t1 btn btn-yellow">
+                        buy
+                    </a>
+                </div>
+                <div class="card store-card grid-1-of-4 pos-rel">
+
+                    <img alt="store image" src="../img/51119_1563542725.jpg" class="store-img">
+
+                    <h2 class="h3 bold mg-v1">Real Madrid home jersey</h2>
+                    <h2 class="light p ">JUlius retailers</h2>
+                    <div class="grey-box disp-flex just-spbtw">
+                        <span class="qty">123 left</span>
+                        <span class="qty">10 sold</span>
+                    </div>
+                    <div class="mg-v1">
+                        <span class="price">$35</span>
+                    </div>
+                    <div>
+                       <span class="trust-badge">
+                        <span class="trust-level">
+                            trust lvl. 2
+                        </span>
+                        <span class="trust-level">
+                            vendor lvl. 2
+                        </span>
+                    </span>
+                    </div>
+                    <a class="mg-t1 btn btn-yellow">
+                        buy
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+</div>
+<!--<script src="../js/sidebar.js"></script>-->
+<footer>
+    <p class="footer-p">deepsea &copy; 2020</p>
+</footer>
+</body>
+</html>
